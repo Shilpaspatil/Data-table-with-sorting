@@ -4,16 +4,32 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <h2><strong>TESTING</strong> </h2>
+      <div class="btn-group heder-dropdown-align">
+        <button type="button" class="btn btn-secondary dropdown-toggle header-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Demo-Wiser Drones-Staging
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Drone-01</a>
+          <a class="dropdown-item" href="#">Drone-02</a>
+          <a class="dropdown-item" href="#">Drone-03</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Drone-04</a>
+        </div>
+      </div>
+      <div class="btn-group ml-2">
+        <button type="button" class="btn btn-secondary dropdown-toggle header-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Wiser Drones
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Drone-01</a>
+          <a class="dropdown-item" href="#">Drone-02</a>
+          <a class="dropdown-item" href="#">Drone-03</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Drone-04</a>
+        </div>
+      </div>
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
         <!-- This menu is hidden in bigger devices with d-sm-none. 
              The sidebar isn't proper for smaller screens imo, so this dropdown menu can keep all the useful sidebar itens exclusively for smaller screens  -->
         <li class="nav-item dropdown d-sm-block d-md-none">
@@ -32,6 +48,8 @@
         <li>
                 <div class="dropdown">
                     <img src="../assets/images/user.png" class="customer-photo" />
+                    <p class="need-help text-danger ml-2"><b>Need help? Schedule A Product Tour</b></p>
+                    <img src="../assets/images/user2.png" class="customer-photo" />
                     <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown">
                     <span class="caret"></span></button>
                     <ul class="ml-2 dropdown-menu">
@@ -54,77 +72,83 @@
           <ul class="list-group">
               <!-- Separator with title -->
               <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
-                  <small>MAIN MENU</small>
+                  <strong>SPONSORED ADS </strong>
               </li>
               <!-- /END Separator -->
               <!-- Menu with submenu -->
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span class="fa fa-braille fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Overview</span>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-start align-items-center">
+                  <span class="fa fa-folder fa-fw mr-3"></span>
+                  <span class="menu-collapsed">Campaigns</span>
+              </div>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-start align-items-center">
+                <span class="fa fa-user fa-fw mr-3"></span>
+                <span class="menu-collapsed">Recommendations</span>
+            </div>
+        </a>
               <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-start align-items-center">
-                      <span class="fa fa-dashboard fa-fw mr-3"></span> 
-                      <span class="menu-collapsed">Dashboard</span>
+                      <span class="fa fa-product-hunt fa-fw mr-3"></span> 
+                      <span class="menu-collapsed">Sponsored Products</span>
                       <span class="submenu-icon ml-auto"></span>
                   </div>
               </a>
               <!-- Submenu content -->
               <div id='submenu1' class="collapse sidebar-submenu">
                   <a href="#" class="list-group-item list-group-item-action">
-                      <span class="menu-collapsed">Charts</span>
+                      <span class="menu-collapsed">Ad Groups</span>
                   </a>
                   <a href="#" class="list-group-item list-group-item-action">
-                      <span class="menu-collapsed">Reports</span>
+                      <span class="menu-collapsed">Products</span>
                   </a>
                   <a href="#" class="list-group-item list-group-item-action">
-                      <span class="menu-collapsed">Tables</span>
+                      <span class="menu-collapsed">Placement</span>
                   </a>
+                  <a href="#" class="list-group-item list-group-item-action">
+                    <span class="menu-collapsed">Auto Targeting</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <span class="menu-collapsed">Keywords</span>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <span class="menu-collapsed">Product Targeting</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <span class="menu-collapsed">Search Items</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <span class="menu-collapsed">Keyword Suggestions</span>
+        </a>
               </div>
               <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-start align-items-center">
-                      <span class="fa fa-user fa-fw mr-3"></span>
-                      <span class="menu-collapsed">Profile</span>
+                      <span class="fa fa-bitcoin fa-fw mr-3"></span>
+                      <span class="menu-collapsed">Sponsored Brands</span>
                       <span class="submenu-icon ml-auto"></span>
                   </div>
               </a>
               <!-- Submenu content -->
               <div id='submenu2' class="collapse sidebar-submenu">
-                  <a href="#" class="list-group-item list-group-item-action">
-                      <span class="menu-collapsed">Settings</span>
-                  </a>
-                  <a href="#" class="list-group-item list-group-item-action">
-                      <span class="menu-collapsed">Password</span>
-                  </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <span class="menu-collapsed">Keywords</span>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <span class="menu-collapsed">Product Targeting</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <span class="menu-collapsed">Search Items</span>
+          </a>
               </div>            
-              <a href="#" class=" list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-start align-items-center">
-                      <span class="fa fa-tasks fa-fw mr-3"></span>
-                      <span class="menu-collapsed">Tasks</span>    
-                  </div>
-              </a>
-              <!-- Separator with title -->
-              <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
-                  <small>OPTIONS</small>
-              </li>
-              <!-- /END Separator -->
-              <a href="#" class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-start align-items-center">
-                      <span class="fa fa-calendar fa-fw mr-3"></span>
-                      <span class="menu-collapsed">Calendar</span>
-                  </div>
-              </a>
-              <a href="#" class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-start align-items-center">
-                      <span class="fa fa-envelope-o fa-fw mr-3"></span>
-                      <span class="menu-collapsed">Messages <span class="badge badge-pill badge-primary ml-2">5</span></span>
-                  </div>
-              </a>
               <!-- Separator without title -->
               <li class="list-group-item sidebar-separator menu-collapsed"></li>            
-              <!-- /END Separator -->
-              <a href="#" class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-start align-items-center">
-                      <span class="fa fa-question fa-fw mr-3"></span>
-                      <span class="menu-collapsed">Help</span>
-                  </div>
-              </a>
               <a href="#" data-toggle="sidebar-colapse" class="list-group-item list-group-item-action d-flex align-items-center">
                   <div class="d-flex w-100 justify-content-start align-items-center">
                       <span id="collapse-icon" class="fa fa-2x mr-3" (click)="SidebarCollapse()"></span>
@@ -136,10 +160,10 @@
   
       <!-- MAIN -->
       <!-- Grid to display userdata -->
-      <div class="col mt-3">
-          <div class="row justify-content-center">
+      <div class="col grid-body">
+          <!-- <div class="row justify-content-center">
             <h3 class="text-center">Grid for User Details!</h3>
-          </div>
+          </div> -->
         <kendo-grid
         [data]="gridView"
         kendoGridSelectBy="id"
@@ -161,9 +185,8 @@
           <kendo-grid-spacer></kendo-grid-spacer>
           <input placeholder="Search in all columns..." kendoTextBox [(ngModel)]="searchText" (input)="onFilter(searchText)"/>
           <button kendoGridExcelCommand type="button" icon="file-excel">
-            Export to Excel
           </button>
-          <button kendoGridPDFCommand icon="file-pdf">Export to PDF</button>
+          <button kendoGridPDFCommand icon="file-pdf"></button>
         </ng-template>
         <kendo-grid-checkbox-column
           [width]="45"

@@ -1,6 +1,7 @@
 #body-row {
   margin-left:0;
   margin-right:0;
+  background-color: #f0f4f5;
 }
 .navbar{
   background-color: white;
@@ -97,4 +98,18 @@ padding-left: 10px;
 
 .text-bold {
   font-weight: 600;
+}
+.grid-body{
+  /* background-color: #f0f4f5; */
+  margin-top: 2vh;
+}
+.need-help{
+  display: inline-block;
+}
+.header-dropdown{
+  background-color: white !important;
+    color: black !important;
+}
+.heder-dropdown-align{
+  margin-left: 6vw;
 }
